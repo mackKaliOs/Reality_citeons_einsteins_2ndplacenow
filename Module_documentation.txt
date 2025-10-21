@@ -1,0 +1,64 @@
+🧠 Module Documentation: ObserverCollapse Engine
+
+Purpose
+
+To provide a framework for tracking how conscious observation alters entropy, time perception, energy coherence, and projected reality fields, especially under neuromorphic or consciousness-based simulations.
+
+⸻
+
+1. ObserverCollapse
+	•	Role: Governs observation-induced waveform collapse, alters entropy curvature via perception.
+	•	Key Attributes:
+	•	entropy_curvature: float — relative bend in system entropy under conscious attention
+	•	observation_vector: ndarray — multidimensional projection of awareness
+	•	Functions:
+	•	collapse_state(input_state) → collapsed_state: applies observer-based entropy function to system state
+	•	calculate_collapse_probability() → float: computes likelihood of collapse based on quantum fuzziness & attention span
+
+⸻
+
+2. CognitiveField
+	•	Role: Represents emotional tone and mental focus range — tied to magneto-emotive fields.
+	•	Key Attributes:
+	•	emotional_charge: float — scalar emotional field strength
+	•	cognitive_projection: ndarray — where and how mind is focused in perceptual space
+	•	Functions:
+	•	resonance_score(target_field) → float: calculates harmony between user’s emotional field and a given input
+	•	distortion_map() → returns real-time distortions in reality due to emotion-based refraction
+
+⸻
+
+3. TimePerception
+	•	Role: Alters the perceived time vector relative to internal mitochondrial or cognitive stress.
+	•	Key Attributes:
+	•	relative_time_rate: float — speedup or slowdown multiplier
+	•	temporal_shift_axis: vector — orientation of perceived time shift
+	•	Functions:
+	•	calculate_time_dilation(input_event_time) → user_perceived_time
+	•	predict_temporal_feedback(loop_state): useful in looping simulations
+
+⸻
+
+4. MitochondrialInfluence
+	•	Role: Tracks coherence of mitochondrial function to consciousness fluctuations.
+	•	Key Attributes:
+	•	coherence_score: float (0-1) — how synchronized mitochondria are across systems
+	•	ATP_flux_variability: float — mitochondrial energy flux inconsistency
+	•	Functions:
+	•	compute_coherence_from_EEG(hrv_data, light_env) → float
+	•	map_energy_fields() → spectral readout of mitochondrial + energetic fields
+
+⸻
+
+5. RealityProjection
+	•	Role: Primary interface that renders externalized simulation of internal intention fields.
+	•	Key Attributes:
+	•	projection_intensity: float — strength of influence over observable outcomes
+	•	stability_vector: ndarray — how stable the projected reality is
+	•	Functions:
+	•	render_projection(input_data) → creates perceptual shift
+	•	compare_outcome_to_intent() → quantifies success in reality creation
+
+⸻
+
+Test Suite Design (pytest-based)
